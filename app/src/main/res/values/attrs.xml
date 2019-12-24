@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="custom_wave_view_attr">
+
+        <!-- 圆的颜色-->
+        <attr name="circle_color" format="color"/>
+        <!-- 圆的背景色 -->
+        <attr name="circle_background_color" format="color"/>
+        <!-- 水波纹的颜色 -->
+        <attr name="progress_wave_color" format="color"/>
+        <!-- 字体的大小 -->
+        <attr name="progress_text_size" format="dimension"/>
+        <!-- 字体的颜色 -->
+        <attr name="progress_text_color" format="color"/>
+
+    </declare-styleable>
+
+</resources>

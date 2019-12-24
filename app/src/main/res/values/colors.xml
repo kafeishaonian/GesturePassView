@@ -10,4 +10,7 @@
     <color name="c_eaebf0">#eaebf0</color>
     <color name="c_333333">#333333</color>
 
+    <color name="circle_color">#000000</color>
+    <color name="circle_bg_color">#ffffff</color>
+
 </resources>

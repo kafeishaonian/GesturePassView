@@ -1,8 +1,10 @@
 package com.hongmingwei.gesture;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import com.hongmingwei.gesture.ui.LocusPassWordView;
 
@@ -18,6 +20,13 @@ public class MainActivity extends AppCompatActivity {
 
         view = (LocusPassWordView) findViewById(R.id.agp_locus_pass);
         initListener();
+
+        findViewById(R.id.agp_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, SeekActivity.class));
+            }
+        });
     }
 
 
